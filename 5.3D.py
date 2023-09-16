@@ -39,7 +39,7 @@ def blink_dash():
     GPIO.output(LED_PIN, GPIO.HIGH)
     time.sleep(0.7)  # Adjust the duration of a dash
     GPIO.output(LED_PIN, GPIO.LOW)
-    time.sleep(0.7)  # Adjust the duration between dots and dashes
+    time.sleep(0.4)  # Adjust the duration between dots and dashes
 
 # Function to blink Morse code based on input
 def blink_morse_code(message):
